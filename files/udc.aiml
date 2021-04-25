@@ -1,0 +1,79 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<aiml>
+<text> Type Start to begin</text>
+  <category>
+    <pattern>start</pattern>
+    <template>Welcome to the Computer Science ChatBot. Type "1" to begin survery, type "2" to see list of jobs</template>
+  </category>
+  
+  <category>
+    <pattern>1</pattern>
+    <template>Welcome to the Survery, type what is inside parenthisis next to your chosen response. <br/> <br/> Do you prefer working with hardware (hardware) or software (software)?</template>
+  </category>
+  
+   <category>
+    <pattern>2</pattern>
+    <template>  Software Developer <br/>
+                Web Developer <br/>
+                Information Security Analyst <br/>
+                Hardware Engineer <br/>
+                Computer Network Architect </template>
+  </category>
+  
+  <category>
+    <pattern>hardware</pattern>
+    <template>Are you more interested in the internal workings of computers (internal) or networking (networking)? </template>
+  </category>
+  
+    <category>
+        <pattern>internal</pattern>
+        <template>The job best suited for you is Hardware Engineer </template>
+    </category>
+  
+    <category>
+        <pattern>networking</pattern>
+        <template>The job best suited for you is Computer Network Architect </template>
+    </category>
+  
+  
+  <category>
+    <pattern>software</pattern>
+    <template>Are you interested in keeping software secure? (y/n) </template>
+  </category>
+  
+    <category>
+         <pattern>y</pattern>
+         <template>The job best suited for you is Information Security Analyst </template>
+    </category>
+  
+    <category>
+        <pattern>n</pattern>
+        <template>Are you more comfortable with application software (application) or web software (web) </template>
+    </category>
+    
+        <category>
+            <pattern>application</pattern>
+            <template>The job best suited for you is Software Developer </template>
+        </category>
+        
+        <category>
+            <pattern>web</pattern>
+            <template>The job best suited for you is Web Developer </template>
+        </category>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+</aiml>
